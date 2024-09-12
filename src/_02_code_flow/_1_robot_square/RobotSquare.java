@@ -53,6 +53,16 @@ public class RobotSquare {
 		 **/
 
 		// Run the program again. Did your Robot draw a square?
+		int count =0;
+		while(count<4) {
+			rob.move(100);
+			rob.turn(90);
+			count++;
+			}
 
 	}
+	
 }
+
+
+
